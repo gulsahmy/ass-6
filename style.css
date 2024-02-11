@@ -1,0 +1,241 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header:hover{
+    animation-name: clarusway;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    
+
+}
+
+.header img:hover{
+    width: 75px;
+    height: 75px;
+}
+
+h1{
+    text-align: center;
+    color: brown;
+    font-size: 60px;
+    padding: 50px;
+}
+
+.img1{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.img1 img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    position: relative;
+}
+
+.img1 img:hover{
+    width: 350px;
+    height: 300px;
+    z-index: 5;
+}
+
+.cont1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.lnk{
+    display: flex;    
+    gap: 3rem;
+    font-size: 1.2rem;
+    color: black;  
+    
+}
+footer{
+   display: flex;
+   justify-content: flex-end;
+   padding: 50px;
+   font-size: 35px;
+   
+}
+footer div{
+    display: flex;
+    justify-content: right;
+    gap: 2rem;  
+    
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.icon{
+    display: flex;
+    justify-content: right;
+    position: fixed;
+}
+
+
+
+
+
+.lnk a:hover{
+    
+    animation-name: link;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0, 0, 0, 5);
+    animation-iteration-count: 1;
+    /* animation-direction: alternate; */
+}
+
+
+.lnk a{
+    text-decoration: none;
+}
+
+.you:hover{
+    animation-name: iconn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    color: brown;
+
+}
+.face:hover{
+    animation-name: iconn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    color: brown;
+
+}
+.twit:hover{
+    animation-name: iconn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    color: brown;
+
+}
+.ins:hover{
+    animation-name: iconn;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    color: brown;
+
+}
+
+.lnk a{
+    color: black;
+}
+
+.rsm1{
+    width: 200px;
+    height: 200px;
+    animation: buyume 2s infinite alternate;
+}
+.rsm2{
+    width: 200px;
+    height: 200px;
+    animation: buyume 2s infinite alternate;
+}
+.rsm3{
+    width: 200px;
+    height: 200px;
+    animation: buyume 2s infinite alternate;
+}
+.rsm4{
+    width: 200px;
+    height: 200px;
+    animation: buyume 2s infinite alternate;
+}
+
+h1{
+    position: relative;
+    animation: dusme .5s ease-out 3 normal;
+}
+
+
+
+
+
+@keyframes dusme {
+    0%{
+        transform: translateY(-200px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes buyume {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+
+
+@keyframes iconn{
+    0%{
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+        transform-origin: center;
+
+    }
+
+}
+
+
+@keyframes clarusway{
+    0%{
+
+    }
+
+    100%{
+        transform: rotate(360deg);
+        transform-origin: center;
+
+    }
+}
+
+@keyframes link{
+    0%{
+
+    }
+    100%{
+        text-decoration:underline;
+        color: brown;
+
+    }
+}
+
